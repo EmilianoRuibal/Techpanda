@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="base.BaseTest"/>
+      <class name="Test.Guru99.AppTest"/>
+      <class name="Test.Guru99.Dia07"/>
+      <class name="Test.Guru99.Dia08"/>
+      <class name="Test.Guru99.Dia09"/>
+      <class name="Test.Guru99.Dia03"/>
+      <class name="Test.Guru99.Dia04"/>
+      <class name="Test.Guru99.Dia05"/>
+      <class name="pruebas.dia11_CP01"/>
+      <class name="Test.Guru99.Dia06"/>
+      <class name="Test.Guru99.Dia10"/>
+      <class name="pruebas.dia11_CP02"/>
+      <class name="pruebas.dia11_CP03"/>
+      <class name="pruebas.dia11_CP04"/>
+      <class name="Test.Guru99.Dia01"/>
+      <class name="pruebas.dia11_CP05"/>
+      <class name="Test.Guru99.Dia02"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

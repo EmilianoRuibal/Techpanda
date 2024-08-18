@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+      <class name="pruebas.CP001_OrdenarProductosPorNombre"/>
+      <class name="pruebas.CP002_VerificarCostoDeProducto"/>
+      <class name="pruebas.CP003_AgregarGranCantidadDeProductosAlCarrito"/>
+      <class name="pruebas.CP004_CompararDosProductos"/>
+      <class name="pruebas.CP005_CrearCuentaYCompartirWishlist"/>
+      <class name="pruebas.CP006_RealizarCompra"/>
+      <class name="pruebas.CP007_GuardarPDFPedidoRealizado"/>
+      <class name="pruebas.CP008_EditarProductoAgregadoAlCarrito"/>
+      <class name="pruebas.CP009_VerificarCuponDescuento"/>
+      <class name="pruebas.CP010_ExportarPedidosEnCSV"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
